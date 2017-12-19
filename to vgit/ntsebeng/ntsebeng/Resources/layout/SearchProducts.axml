@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="PRODUCT NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtprodname"
+        android:layout_marginLeft="63.5dp" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="165.0dp"
+        android:layout_height="96.0dp"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="50.0dp"
+        android:layout_marginRight="129.5dp" />
+    <TextView
+        android:text="DESCRIPTION"
+        android:layout_width="match_parent"
+        android:layout_height="42.0dp"
+        android:id="@+id/txtdesc"
+        android:layout_marginLeft="4.5dp"
+        android:layout_marginBottom="13.5dp" />
+    <TextView
+        android:text="PRICE"
+        android:layout_width="129.5dp"
+        android:layout_height="31.5dp"
+        android:id="@+id/txtprice"
+        android:layout_marginLeft="44.0dp"
+        android:layout_marginBottom="13.5dp" />
+    <Button
+        android:layout_width="137.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnaddcart"
+        android:text="Add To Cart"
+        android:layout_marginLeft="11.0dp"
+        android:backgroundTint="#ff880e4f" />
+</LinearLayout>

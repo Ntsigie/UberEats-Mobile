@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="236.0dp"
+        android:id="@+id/listView1"
+        android:background="@drawable/homepage2"
+        android:layout_marginBottom="1.5dp" />
+    <Button
+        android:text="REGISTER"
+        android:layout_width="171.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnreg"
+        android:backgroundTint="#ff2e7d32"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="32.5dp" />
+    <Button
+        android:text="LOG IN"
+        android:layout_width="170.0dp"
+        android:layout_height="48.0dp"
+        android:id="@+id/btnlog"
+        android:backgroundTint="#ffd50000"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="36.5dp" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android"> 
+
+<item
+	android:id="@+id/Search"
+        andoid:title="Search"
+        android:shownAsAction="never"/>
+        
+        <item 
+        android:id="@+id/Update"
+        andoid:title="Update"
+        android:shownAsAction="never"/>
+
+    <item 
+        android:id="@+id/cart"
+        andoid:title="Manage cart"
+        android:shownAsAction="never"/>
+     
+</menu>
+
+

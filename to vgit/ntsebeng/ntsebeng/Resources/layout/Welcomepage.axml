@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woooooh">
+    <Button
+        android:layout_width="209.0dp"
+        android:layout_height="41.5dp"
+        android:id="@+id/btnSearchRes"
+        android:layout_marginLeft="34.5dp"
+        android:drawableTint="#ffeeeeee"
+        android:backgroundTint="#ff2e7d32"
+        android:layout_marginTop="0.0dp"
+        android:text="SEARCH RESTAURANTS" />
+    <Button
+        android:layout_width="203.0dp"
+        android:layout_height="41.5dp"
+        android:id="@+id/btnSearchprod"
+        android:layout_marginLeft="32.0dp"
+        android:drawableTint="#ffeeeeee"
+        android:backgroundTint="#ff2e7d32"
+        android:layout_marginTop="0.0dp"
+        android:text="ORDER NOW" />
+    <Button
+        android:layout_width="199.5dp"
+        android:layout_height="41.5dp"
+        android:id="@+id/btnuppy"
+        android:layout_marginLeft="35.5dp"
+        android:drawableTint="#ffeeeeee"
+        android:backgroundTint="#ff2e7d32"
+        android:layout_marginTop="0.0dp"
+        android:text="UPDATE" />
+    <Button
+        android:layout_width="195.0dp"
+        android:layout_height="41.5dp"
+        android:id="@+id/btnpayment2"
+        android:layout_marginLeft="32.5dp"
+        android:drawableTint="#ffeeeeee"
+        android:backgroundTint="#ff2e7d32"
+        android:layout_marginTop="0.0dp"
+        android:text="PAYMENT" />
+    <Button
+        android:layout_width="192.5dp"
+        android:layout_height="41.5dp"
+        android:id="@+id/btnLogOut"
+        android:layout_marginLeft="37.5dp"
+        android:drawableTint="#ffeeeeee"
+        android:backgroundTint="#ff2e7d32"
+        android:layout_marginTop="0.0dp"
+        android:text="LOG OUT"
+        android:layout_marginRight="13.0dp" />
+</LinearLayout>
